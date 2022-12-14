@@ -3,10 +3,13 @@ package com.ty.ClothRentalApplication_boot_dao;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import com.ty.ClothRentalApplication_boot_dto.Customer;
 import com.ty.ClothRentalApplication_boot_repository.CustomerRepository;
 
+
+@Repository
 public class CustomerDao {
 
 	@Autowired
